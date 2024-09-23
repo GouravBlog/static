@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  height: 70px;
+  width: 100vw;
+  background-color: red;
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  /* width: 100%; */
+  height: 100%;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: red;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  width: 100%;
+  padding: 10px 0px;
+}
